@@ -1,0 +1,234 @@
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+nav{
+    padding: 40px 0;
+}
+nav .image .imageone img{
+    background-image: url(../image/logobg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+}
+nav .image{
+    display: flex;
+}
+nav .nav-item {
+    color: #272727 !important;
+    font-size: 20px;
+    font-weight: medium;
+    font-family: "Poppins", serif;
+}
+nav .nav-item .nav-link i{
+    color: #39DB4A !important;
+}
+nav .nav-item .active{
+    color: #39DB4A !important;
+}
+nav .search i{
+    color: red !important;
+}
+nav .search a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    background: #39DB4A;
+    padding: 15px 27px;
+    font-size: 20px;
+    font-weight: medium;
+    font-family: "Poppins", serif;
+    border-radius: 40px;
+}
+nav .search a i{
+   padding-right: 8px;
+}
+/* banner part start */
+.banner-part{
+    padding: 100px 0;
+
+}
+.banner-part h1{
+    font-size: 62px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Inter", serif;
+    line-height: 145%;
+    width: 550px;
+}
+.banner-part h1 span{
+    color: #39DB4A;
+}
+.banner-part p{
+    width: 108%;
+    font-size: 26px;
+    color: #4A4A4A;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    padding: 40px 0;
+}
+.banner-part .button .btnone{
+    color: #FFFFFF;
+    font-size: 26px;
+    background: #39DB4A;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    padding: 15px 30px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+}
+.banner-part .button .btnone:hover{
+    background: #FFFFFF;
+    color: #39DB4A;
+    border: 1px solid #ddd;
+}
+.banner-part .button {
+    align-items: center;
+    column-gap: 30px;
+}
+.banner-part .button .btntwo{
+    color: #4A4A4A;
+    font-size: 26px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+}
+.banner-part .button .btnthree{
+    color: #4A4A4A;
+    font-size: 26px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    padding: 10px 19px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.banner-part .button .btnthree:hover{
+    background: #39DB4A;
+    color: #FFFFFF;
+}
+.banner-part .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-part .circle{
+    width: 400px;
+    height: 400px;
+    background: #39DB4A;
+    border-radius: 50%;
+    position: relative;
+}
+.banner-part .circle .image {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: -96px;
+    left: -9px;
+}
+.banner-part .circle .image img{
+    width: 100%;
+    height: 100%;
+}
+.banner-part .cardone {
+    display: flex;
+    column-gap: 15px;
+    border: 1px solid #ddd;
+    background: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 25px;
+    position: absolute;
+    top: 358px;
+    left: -73px;
+}
+.banner-part .cardone .imageone{
+    width: 60px;
+    height: 75px;
+    border-radius: 10px;
+}
+.banner-part .cardone .imageone img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.banner-part .cardone h6{
+    color: #2C2C2C;
+    font-size: 22px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+}
+.banner-part .cardone h6 span{
+    color: #FF7979;
+}
+.banner-part .cardone .rate i:nth-child(-n+3){
+    color: #FFE605;
+}
+.banner-part .cardtwo {
+    display: flex;
+    column-gap: 15px;
+    border: 1px solid #ddd;
+    background: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 25px;
+    position: absolute;
+    top: 358px;
+    right: -64px;
+}
+.banner-part .cardtwo .imageone{
+    width: 60px;
+    height: 75px;
+    border-radius: 10px;
+}
+.banner-part .cardtwo .imageone img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.banner-part .cardtwo h6{
+    color: #2C2C2C;
+    font-size: 22px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+}
+.banner-part .cardtwo h6 span{
+    color: #FF7979;
+}
+.banner-part .cardtwo .rate i:nth-child(-n+4){
+    color: #FFE605;
+}
+.banner-part .message {
+    background: #FFFFFF;
+    height: 67px;
+    padding: 0 5px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 1px;
+    left: -64px;
+    display: flex;
+    align-items: center;
+}
+.banner-part .message p{
+   font-size: 20px;
+   color: #FF7979;
+   
+}
+.banner-part .message::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid white;
+    rotate: -30deg;
+}
+/* banner part end */
