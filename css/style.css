@@ -27,8 +27,13 @@ nav .nav-item .nav-link i{
 nav .nav-item .active{
     color: #39DB4A !important;
 }
+nav .search {
+    align-items: center;
+    
+}
 nav .search i{
-    color: red !important;
+    color: #272727;
+    
 }
 nav .search a{
     text-decoration: none;
@@ -40,9 +45,11 @@ nav .search a{
     font-weight: medium;
     font-family: "Poppins", serif;
     border-radius: 40px;
+    font-size: 20px;
 }
 nav .search a i{
    padding-right: 8px;
+   color: #FFFFFF;
 }
 /* banner part start */
 .banner-part{
@@ -61,7 +68,6 @@ nav .search a i{
     color: #39DB4A;
 }
 .banner-part p{
-    width: 108%;
     font-size: 26px;
     color: #4A4A4A;
     font-weight: 500;
@@ -111,6 +117,7 @@ nav .search a i{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 50px;
 }
 .banner-part .circle{
     width: 400px;
@@ -219,6 +226,10 @@ nav .search a i{
    color: #FF7979;
    
 }
+.banner-part .message p span{
+  color: ;
+   
+}
 .banner-part .message::after{
     content: "";
     position: absolute;
@@ -232,3 +243,64 @@ nav .search a i{
     rotate: -30deg;
 }
 /* banner part end */
+/* popular part start */
+.popular{
+    padding: 50px 0;
+}
+.popular .header{
+    text-align: center;
+}
+.popular .header h4{
+    color: #FF7979;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    letter-spacing: 17.5%;
+}
+.popular .header h2{
+    color: #000000;
+    font-size: 60px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    padding-top: 28px;
+    padding-bottom: 60px;
+}
+.popular .card-part{
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+    
+}
+.popular .card-part .card{
+    width: 220px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.popular .card-part .card h5{
+    color: #1E1E1E;
+    font-size: 30px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+}
+.popular .card-part .card p{
+    color: #555555;
+    font-size: 22px;
+    font-family: "Inter", serif;
+    font-weight: 500;
+}
+.popular .card-part .card .image{
+    width: 120px;
+    height: 120px;
+    background: #C1F1C6;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.popular .card-part .card .image img{
+    padding: 7px;
+    width: 80%;
+    height: 80%;
+}
+
+/* popular part end */
