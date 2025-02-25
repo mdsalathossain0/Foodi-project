@@ -142,6 +142,7 @@ nav .search a i{
     column-gap: 15px;
     border: 1px solid #ddd;
     background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 10px;
@@ -152,7 +153,7 @@ nav .search a i{
     left: -73px;
 }
 .banner-part .cardone .imageone{
-    width: 60px;
+    width: 65px;
     height: 75px;
     border-radius: 10px;
 }
@@ -163,32 +164,37 @@ nav .search a i{
 }
 .banner-part .cardone h6{
     color: #2C2C2C;
-    font-size: 22px;
+    font-size: 18px;
     font-family: "Inter", serif;
     font-weight: 600;
 }
 .banner-part .cardone h6 span{
     color: #FF7979;
+    font-size: 14px;
 }
 .banner-part .cardone .rate i:nth-child(-n+3){
     color: #FFE605;
+}
+.banner-part .cardone .rate i{
+    font-size: 16px;
 }
 .banner-part .cardtwo {
     display: flex;
     column-gap: 15px;
     border: 1px solid #ddd;
     background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 10px;
-    padding-right: 30px;
+    padding-right: 22px;
     border-radius: 25px;
     position: absolute;
     top: 358px;
     right: -64px;
 }
 .banner-part .cardtwo .imageone{
-    width: 60px;
+    width: 65px;
     height: 75px;
     border-radius: 10px;
 }
@@ -199,15 +205,19 @@ nav .search a i{
 }
 .banner-part .cardtwo h6{
     color: #2C2C2C;
-    font-size: 22px;
+    font-size: 18px;
     font-family: "Inter", serif;
     font-weight: 600;
 }
 .banner-part .cardtwo h6 span{
     color: #FF7979;
+    font-size: 14px;
 }
 .banner-part .cardtwo .rate i:nth-child(-n+4){
     color: #FFE605;
+}
+.banner-part .cardtwo .rate i{
+    font-size: 16px;
 }
 .banner-part .message {
     background: #FFFFFF;
@@ -226,10 +236,7 @@ nav .search a i{
    color: #FF7979;
    
 }
-.banner-part .message p span{
-  color: ;
-   
-}
+
 .banner-part .message::after{
     content: "";
     position: absolute;
@@ -304,3 +311,109 @@ nav .search a i{
 }
 
 /* popular part end */
+/* dishes part start */
+.dishes{
+    padding: 50px 0;
+    position: relative;
+}
+.dishes h6{
+    color: #FF7979;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    letter-spacing: 17.5%;
+}
+.dishes h3{
+    color: #000000;
+    font-size: 60px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    line-height: 131%;
+    width: 50%;
+}
+.dishes .slide{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    right: 150px;
+    top: 145px;
+}
+.dishes .slide i:first-child{
+    background: #EFEFEF;
+    padding: 14px 16px;
+    border-radius: 50%;
+}
+.dishes .slide i:last-child{
+    background: #39DB4A;
+    padding: 14px 16px;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+.dishes .card-part {
+    padding-top: 30px; 
+    display: flex;
+    justify-content: space-between;
+}
+.dishes .card-part .card{
+    width: 320px;  
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0 10px;
+    position: relative;
+}
+.dishes .card-part .card .info{
+    display: flex;
+    justify-content: space-between;    
+}
+.dishes .card-part .card .info i{
+   padding-right: 8px; 
+   color: #FFE605;   
+}
+.dishes .card-part .card h5{
+    color: #000000;
+    font-size: 24px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.dishes .card-part .card h5 span{
+    font-size: 16px;
+    color: #FF7979;
+}
+.dishes .card-part .card p{
+    color: #555555;
+    font-size: 18px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    line-height: 131%; 
+}
+.dishes .card-part .card .image{
+    width: 190px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.dishes .card-part .card .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.dishes .card-part .card .feedback{
+    width: 60px;
+    height: 60px;
+    background: #39DB4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 35px 0 35px;
+}
+.dishes .card-part .card .feedback i{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+/* dishes part end */
