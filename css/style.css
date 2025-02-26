@@ -417,3 +417,106 @@ nav .search a i{
   color: #FFFFFF;
 }
 /* dishes part end */
+/* customer part start */
+.customer{
+    padding: 80px 0;
+}
+.customer .left{
+   width: 350px;
+   height: 250px;
+   background: #39DB4A;
+   margin: 0 auto;
+   margin-top: 150px;
+   border-radius: 50% 50% 5% 5%;
+   position: relative;
+}
+.customer .left .image{
+   width: 300px;
+   height: 450px;
+   position: absolute;
+   left: 10px;
+   bottom: 0;
+}
+.customer .left .image img{
+   width: 100%;
+   height: 100%;
+  
+}
+.customer .left .message p {
+    color: #202020;
+    font-size: 18px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    position: absolute;
+    bottom: -25px;
+    right: -47px;
+    background: #FFFFFF;
+    padding: 8px 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.customer .left .emoji{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 97px;
+}
+.customer .right h6{
+    color: #FF7979;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    letter-spacing: 17.5%;
+}
+.customer .right h2{
+    color: #000000;
+    font-size: 58px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    line-height: 120%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.customer .info{
+    display: flex;
+    column-gap: 130px;
+    padding-top: 15px;
+}
+.customer .info .image{
+    position: relative;
+}
+.customer .info .image img{
+    width: 70px;
+    height: 70px;
+
+}
+.customer .info .image .img2{
+    position: absolute;
+    left: 40px;
+}
+.customer .info .image .img3{
+    position: absolute;
+    left: 80px;
+}
+.customer .info h3{
+    color: #000000;
+    font-size: 22px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+}
+.customer .info p{
+    color: #807E7E;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+}
+.customer .info p span{
+    color: #454545;
+    padding-right: 10px;
+}
+.customer .info p span i{
+    font-size: 16px;
+    padding-right: 8px;
+    color: #FFE605;
+}
+/* customer part end */
