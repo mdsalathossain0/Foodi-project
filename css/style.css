@@ -520,3 +520,139 @@ nav .search a i{
     color: #FFE605;
 }
 /* customer part end */
+/* service part start */
+.service{
+    padding: 80px 0;
+}
+.service h6{
+    color: #FF7979;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    letter-spacing: 17.5%;
+}
+.service h2{
+    color: #000000;
+    font-size: 54px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.service p{
+    color: #555555;
+    font-size: 22px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    line-height: 150%;
+    padding-bottom: 40px;
+}
+.service a{
+    background: #39DB4A;
+    color: #FFFFFF;
+    font-size: 23px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    padding: 18px 40px;
+    border-radius: 30px;
+}
+.service .card-part{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.service .card-part .card-info{
+    width: 40%;
+    height: 220px;
+    text-align: center;
+    box-shadow: 1px 4px 5px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    padding: 12px;
+}
+.service .card-part .card-info h3{
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Inter", serif;
+    color: #5FE26C;
+}
+.service .card-part .card-info p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    color: #90BD95;
+}
+/* service part end */
+/* footerhead part start */
+.footer{
+    padding: 50px 0;
+}
+.footer .image .imageone img{
+    background-image: url(../image/logobg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+}
+.footer .image{
+    display: flex;
+}
+.footer p{
+    width: 53%;
+    padding-top: 37px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    line-height: 150%;
+}
+.footer h5{
+    font-size: 22px;
+    color: #000000;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.footer ul li{
+    font-size: 18px;
+    color: #555555;
+    font-family: "Inter", serif;
+}
+/* footerhead part end */
+/* footer part start */
+footer{
+    padding-bottom: 40px;
+}
+footer ul{
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    font-size: 20px;
+    color: #484848;
+    background: #EDFFEF;
+    padding: 4px 10px;
+    border-radius: 50%;
+}
+footer ul li:first-child{
+    color: white;
+    background: #39DB4A;
+}
+footer p{
+    font-size: 18px;
+    color: #555555;
+    font-family: "Inter", serif;
+}
+/* footer part end */
