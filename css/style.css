@@ -32,7 +32,7 @@ nav .search {
     
 }
 nav .search i{
-    color: #272727;
+    color: #272727!important;
     
 }
 nav .search a{
@@ -49,7 +49,7 @@ nav .search a{
 }
 nav .search a i{
    padding-right: 8px;
-   color: #FFFFFF;
+   color: #FFFFFF !important;
 }
 /* banner part start */
 .banner-part{
@@ -233,8 +233,7 @@ nav .search a i{
 }
 .banner-part .message p{
    font-size: 20px;
-   color: #FF7979;
-   
+   color: #FF7979; 
 }
 
 .banner-part .message::after{
@@ -274,7 +273,8 @@ nav .search a i{
 }
 .popular .card-part{
     display: flex;
-    column-gap: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: space-between;
     
 }
@@ -352,6 +352,8 @@ nav .search a i{
 .dishes .card-part {
     padding-top: 30px; 
     display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
     justify-content: space-between;
 }
 .dishes .card-part .card{
